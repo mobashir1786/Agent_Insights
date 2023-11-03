@@ -17,7 +17,7 @@ const Test = () => {
         if (i === question.length - 1) {
             // console.log(question);
             localStorage.setItem('questions', JSON.stringify(question));
-            window.location.href = 'http://localhost:3000/result'
+            window.location.href = 'https://agent-insights-ten.vercel.app/test/result'
         } else {
             setI(i + 1);
         }
